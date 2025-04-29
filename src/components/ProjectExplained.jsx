@@ -10,13 +10,15 @@ const ProjectExplained = () => {
         <div className=" flex justify-center relative flex-col  bg-lime-950  items-center">
 
             <div className="w-full flex justify-center items-center flex-col">
+                <h2 className="text-5xl font-bold text-slate-300">Algorithms that know your sound</h2>
                 <h3 className="text-slate-300 text-lg pb-5 flex justify-center items-center pt-10"> 
+                    How do music streaming services know what song you want to listen to next?<br/><br/>
                     <b> Click around on the graph to explore people and groups. Double-click on a group in the legend to isolate it</b><br/><br/>
                 </h3>
 
                 <div className="w-full flex justify-center">
                     <embed 
-                        src="/playlist_plot.html" 
+                        src="/song_plot.html" 
                         width="80%"  // Adjust width to fit better
                         height="600px"
                         title="Group Plot"

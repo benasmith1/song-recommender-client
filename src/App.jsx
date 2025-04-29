@@ -22,7 +22,7 @@ export default function App() {
     <main className="bg-lime-100 min-h-screen flex flex-col bg-cover">
       <div className="relative w-full bg-contain bg-center bg-cover" style={{ backgroundImage: 'url(./header2.png)'}}>
         <div className="flex justify-center items-center h-[60vh]">
-          <h1 className="text-5xl font-bold text-white">Algorithms That Know Your Sound</h1>
+          <h1 className="text-5xl font-bold text-white">Music Meets Data</h1>
         </div>
       </div>
 
