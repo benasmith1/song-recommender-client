@@ -10,10 +10,14 @@ const ProjectExplained = () => {
         <div className=" flex justify-center relative flex-col  bg-lime-950  items-center">
 
             <div className="w-full flex justify-center items-center flex-col">
-                <h2 className="text-5xl font-bold text-slate-300">Algorithms that know your sound</h2>
+                <h2 className="text-5xl font-bold text-slate-300 flex justify-center pt-10">Algorithms that know your sound</h2>
                 <h3 className="text-slate-300 text-lg pb-5 flex justify-center items-center pt-10"> 
                     How do music streaming services know what song you want to listen to next?<br/><br/>
-                    <b> Click around on the graph to explore people and groups. Double-click on a group in the legend to isolate it</b><br/><br/>
+                    INSERT TIKTOK<br/><br/>
+                    Songs that are in playlists together more often are assigned vector embeddings closer together in vector space. 
+                    The following graph shows these embeddings, reduced to 2 dimensions for plotting. Using K Nearest Neighbors, these songs are grouped 
+                    into 10 groups so we can understand how <br/><br/>
+                    <b> Click around on the graph to explore song embeddings. Double-click on a group in the legend to isolate it</b><br/><br/>
                 </h3>
 
                 <div className="w-full flex justify-center">
